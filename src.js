@@ -1,5 +1,5 @@
-const show = document.getElementById("show");
+const subMenu = document.getElementById("subMenu");
 
-function toogleMenu() {
-  close.classlist.toogle("show");
+function toggleMenu() {
+  subMenu.classList.toggle("show");
 }
